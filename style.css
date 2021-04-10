@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: black;
+	background-image: url(image/bg_img.jpg);
+}
+.body{
+	margin: 80px 5vw;
+	min-width: 980px;
+}
+
+
+/*------HEADER------*/
+
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #201f1e;
+	display: flex;
+}
+.logo{
+	margin: 1px 0 1px 5vw;
+	width: 15%;
+}
+.logo_img{
+	height: 96px;
+}
+.line{
+	height: 50px;
+	width: 3px;
+	margin-top: 25px;
+	background: #eb0d00;
+}
+nav{
+	height: 100px;
+	display: flex;
+	width: 78%;
+	margin-right: 3%;
+}
+nav a{
+	color: #ffffff;
+	font-size: 20px;
+	margin: 22px auto;
+	padding: 12px 0.5vw;
+}
+nav a:hover{
+	background: #e41307;
+}
+.sectant ,.kiber ,.war ,.nrav ,.recept{
+	border-bottom: 3px solid red;
+}
+
+
+/*------MAIN------*/
+
+
+main{
+	height: auto;
+	width: 100%;
+	min-height: 700px;
+	background: #201f1e;
+}
+.main{
+	width: 60%;
+	margin: 0 20%;
+	background: #201f1e;
+	height: auto;
+	min-height: 700px;
+}
+.main h1{
+	text-align: center;
+	color: red;
+}
+h2{
+	text-align: center;
+	color: #fff;
+}
+.main p ,ul li{
+	color: white;
+	font-size: 20px;
+}
+li{
+	margin-left: 30px;
+}
+.img{
+	display: block;
+	text-align: center;
+}
+.img img{
+	width: 40vw;
+	min-width: 500px;
+}
+
+#censored {
+	display: none;
+}
+#censored:target{
+	display: block;
+}
+.close:target{
+	display: none;
+}
+
+
+/*------FOOTER------*/
+
+
+
+footer{
+	height: 100px;
+	width: 100%;
+	background:#201f1e;
+	color: white;
+}
+footer h2{
+	padding-top: 10px;
+	text-align: center;
+}
